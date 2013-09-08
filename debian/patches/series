@@ -1,0 +1,3 @@
+02_hurd_stub_backend.patch
+03_kfreebsd_installdirs.patch
+06_kfreebsd_sys_pipe.patch
