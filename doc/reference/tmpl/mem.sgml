@@ -1,0 +1,144 @@
+<!-- ##### SECTION Title ##### -->
+mem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_MEM_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_USED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_FREE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_SHARED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_BUFFER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_CACHED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_USER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MEM_LOCKED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_MEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_mem ##### -->
+<para>
+
+</para>
+
+@flags: 
+@total: 
+@used: 
+@free: 
+@shared: 
+@buffer: 
+@cached: 
+@user: 
+@locked: 
+
+<!-- ##### FUNCTION glibtop_get_mem ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_mem_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_mem_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_mem_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_mem_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

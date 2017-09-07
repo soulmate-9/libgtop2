@@ -1,0 +1,231 @@
+<!-- ##### SECTION Title ##### -->
+cpu
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_CPU_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_USER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_NICE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_SYS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_IDLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_FREQUENCY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_USER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_NICE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_SYS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_IDLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_FLAGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_IOWAIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_IRQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CPU_SOFTIRQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_IOWAIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_IRQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_XCPU_SOFTIRQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_CPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NCPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_cpu ##### -->
+<para>
+
+</para>
+
+@flags: 
+@total: 
+@user: 
+@nice: 
+@sys: 
+@idle: 
+@iowait: 
+@irq: 
+@softirq: 
+@frequency: 
+@xcpu_total: 
+@xcpu_user: 
+@xcpu_nice: 
+@xcpu_sys: 
+@xcpu_idle: 
+@xcpu_iowait: 
+@xcpu_irq: 
+@xcpu_softirq: 
+@xcpu_flags: 
+
+<!-- ##### FUNCTION glibtop_get_cpu ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_cpu_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_cpu_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_cpu_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_cpu_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

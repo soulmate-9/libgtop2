@@ -1,0 +1,204 @@
+<!-- ##### SECTION Title ##### -->
+procstate
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_CMD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_STATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_UID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_GID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_RUID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_RGID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_HAS_CPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_PROCESSOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_STATE_LAST_PROCESSOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_STATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_RUNNING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_INTERRUPTIBLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_UNINTERRUPTIBLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_ZOMBIE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_STOPPED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_SWAPPING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROCESS_DEAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_proc_state ##### -->
+<para>
+
+</para>
+
+@flags: 
+@cmd: 
+@uid: 
+@gid: 
+@ruid: 
+@rgid: 
+@has_cpu: 
+@processor: 
+@last_processor: 
+
+<!-- ##### FUNCTION glibtop_get_proc_state ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+
+
+<!-- ##### MACRO glibtop_get_proc_state_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_state_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_state_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_state_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+

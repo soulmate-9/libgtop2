@@ -1,0 +1,123 @@
+<!-- ##### SECTION Title ##### -->
+procargs
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_ARGS_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_ARGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_proc_args ##### -->
+<para>
+
+</para>
+
+@flags: 
+@size: 
+
+<!-- ##### FUNCTION glibtop_get_proc_args_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_args ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+
+<!-- ##### MACRO glibtop_get_proc_args_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_args_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_args_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_argv_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_argv ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+@max_len: 
+@Returns: 
+
+

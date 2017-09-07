@@ -1,0 +1,108 @@
+<!-- ##### SECTION Title ##### -->
+PPP
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PPP_STATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PPP_BYTES_IN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PPP_BYTES_OUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PPP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_ppp ##### -->
+<para>
+
+</para>
+
+@flags: 
+@state: 
+@bytes_in: 
+@bytes_out: 
+
+<!-- ##### FUNCTION glibtop_get_ppp ##### -->
+<para>
+
+</para>
+
+@buf: 
+@device: 
+
+
+<!-- ##### MACRO glibtop_get_ppp_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_ppp_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@device: 
+
+
+<!-- ##### FUNCTION glibtop_get_ppp_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@device: 
+
+
+<!-- ##### FUNCTION glibtop_get_ppp_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@device: 
+
+

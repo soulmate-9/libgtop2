@@ -1,0 +1,88 @@
+<!-- ##### SECTION Title ##### -->
+sysinfo
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_SYSINFO_NCPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSINFO_CPUINFO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_SYSINFO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_sysinfo ##### -->
+<para>
+
+</para>
+
+@flags: 
+@ncpu: 
+@cpuinfo: 
+
+<!-- ##### STRUCT glibtop_entry ##### -->
+<para>
+
+</para>
+
+@labels: 
+@values: 
+@descriptions: 
+
+<!-- ##### MACRO glibtop_get_sysinfo_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_sysinfo_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_sysinfo ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

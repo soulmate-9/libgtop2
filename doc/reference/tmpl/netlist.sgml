@@ -1,0 +1,92 @@
+<!-- ##### SECTION Title ##### -->
+Net List
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_NETLIST_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_NETLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_netlist ##### -->
+<para>
+
+</para>
+
+@flags: 
+@number: 
+
+<!-- ##### FUNCTION glibtop_get_netlist ##### -->
+<para>
+
+</para>
+
+@buf: 
+@Returns: 
+
+
+<!-- ##### MACRO glibtop_get_netlist_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_netlist_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_netlist_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_netlist_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@Returns: 
+
+

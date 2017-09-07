@@ -1,0 +1,104 @@
+<!-- ##### SECTION Title ##### -->
+Uptime
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_UPTIME_UPTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_UPTIME_IDLETIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_UPTIME_BOOT_TIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_UPTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_uptime ##### -->
+<para>
+
+</para>
+
+@flags: 
+@uptime: 
+@idletime: 
+@boot_time: 
+
+<!-- ##### FUNCTION glibtop_get_uptime ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_uptime_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_uptime_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_uptime_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_uptime_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

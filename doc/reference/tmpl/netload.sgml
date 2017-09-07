@@ -1,0 +1,228 @@
+<!-- ##### SECTION Title ##### -->
+Net Load
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_IF_FLAGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_MTU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_SUBNET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_ADDRESS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_PACKETS_IN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_PACKETS_OUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_PACKETS_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_BYTES_IN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_BYTES_OUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_BYTES_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_ERRORS_IN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_ERRORS_OUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_ERRORS_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_COLLISIONS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_ADDRESS6 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_PREFIX6 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_SCOPE6 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_NETLOAD_HWADDRESS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_NETLOAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_netload ##### -->
+<para>
+
+</para>
+
+@flags: 
+@if_flags: 
+@mtu: 
+@subnet: 
+@address: 
+@packets_in: 
+@packets_out: 
+@packets_total: 
+@bytes_in: 
+@bytes_out: 
+@bytes_total: 
+@errors_in: 
+@errors_out: 
+@errors_total: 
+@collisions: 
+@address6: 
+@prefix6: 
+@scope6: 
+@hwaddress: 
+
+<!-- ##### FUNCTION glibtop_get_netload ##### -->
+<para>
+
+</para>
+
+@buf: 
+@interface: 
+
+
+<!-- ##### MACRO glibtop_get_netload_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_netload_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@interface: 
+
+
+<!-- ##### FUNCTION glibtop_get_netload_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@interface: 
+
+
+<!-- ##### FUNCTION glibtop_get_netload_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@interface: 
+
+

@@ -1,0 +1,272 @@
+<!-- ##### SECTION Title ##### -->
+procmap
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_MAP_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_MAP_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_MAP_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_MAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_START ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_END ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_OFFSET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_PERM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_INODE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_DEVICE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_FILENAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_RSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_SHARED_CLEAN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_SHARED_DIRTY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_PRIVATE_CLEAN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_ENTRY_PRIVATE_DIRTY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_MAP_ENTRY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_FILENAME_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_PERM_READ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_PERM_WRITE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_PERM_EXECUTE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_PERM_SHARED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAP_PERM_PRIVATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_map_entry ##### -->
+<para>
+
+</para>
+
+@flags: 
+@start: 
+@end: 
+@offset: 
+@perm: 
+@inode: 
+@device: 
+@size: 
+@rss: 
+@shared_clean: 
+@shared_dirty: 
+@private_clean: 
+@private_dirty: 
+@filename: 
+
+<!-- ##### STRUCT glibtop_proc_map ##### -->
+<para>
+
+</para>
+
+@flags: 
+@number: 
+@total: 
+@size: 
+
+<!-- ##### FUNCTION glibtop_get_proc_map ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### MACRO glibtop_get_proc_map_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_map_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_map_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_map_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+

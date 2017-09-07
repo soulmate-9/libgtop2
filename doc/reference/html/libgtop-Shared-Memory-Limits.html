@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Shared Memory Limits</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
+<link rel="home" href="index.html" title="Libgtop Reference Manual">
+<link rel="up" href="libgtop-lib.html" title="Libgtop Library Reference">
+<link rel="prev" href="libgtop-PPP.html" title="PPP">
+<link rel="next" href="libgtop-Uptime.html" title="Uptime">
+<meta name="generator" content="GTK-Doc V1.18 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgtop-PPP.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libgtop-lib.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Libgtop Reference Manual</th>
+<td><a accesskey="n" href="libgtop-Uptime.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgtop-Shared-Memory-Limits.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libgtop-Shared-Memory-Limits.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="libgtop-Shared-Memory-Limits"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgtop-Shared-Memory-Limits.top_of_page"></a>Shared Memory Limits</span></h2>
+<p>Shared Memory Limits</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgtop-Shared-Memory-Limits.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;glibtop/shm_limits.h&gt;
+
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-IPC-SHMMAX:CAPS" title="GLIBTOP_IPC_SHMMAX">GLIBTOP_IPC_SHMMAX</a>
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-IPC-SHMMIN:CAPS" title="GLIBTOP_IPC_SHMMIN">GLIBTOP_IPC_SHMMIN</a>
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-IPC-SHMMNI:CAPS" title="GLIBTOP_IPC_SHMMNI">GLIBTOP_IPC_SHMMNI</a>
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-IPC-SHMSEG:CAPS" title="GLIBTOP_IPC_SHMSEG">GLIBTOP_IPC_SHMSEG</a>
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-IPC-SHMALL:CAPS" title="GLIBTOP_IPC_SHMALL">GLIBTOP_IPC_SHMALL</a>
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#GLIBTOP-MAX-SHM-LIMITS:CAPS" title="GLIBTOP_MAX_SHM_LIMITS">GLIBTOP_MAX_SHM_LIMITS</a>
+struct              <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits">glibtop_shm_limits</a>;
+<span class="returnvalue">void</span>                <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-get-shm-limits" title="glibtop_get_shm_limits ()">glibtop_get_shm_limits</a>              (<em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);
+#define             <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-get-shm-limits-r" title="glibtop_get_shm_limits_r">glibtop_get_shm_limits_r</a>
+<span class="returnvalue">void</span>                <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-get-shm-limits-l" title="glibtop_get_shm_limits_l ()">glibtop_get_shm_limits_l</a>            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-get-shm-limits-p" title="glibtop_get_shm_limits_p ()">glibtop_get_shm_limits_p</a>            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *Param1</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-get-shm-limits-s" title="glibtop_get_shm_limits_s ()">glibtop_get_shm_limits_s</a>            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="libgtop-Shared-Memory-Limits.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libgtop-Shared-Memory-Limits.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="GLIBTOP-IPC-SHMMAX:CAPS"></a><h3>GLIBTOP_IPC_SHMMAX</h3>
+<pre class="programlisting">#define GLIBTOP_IPC_SHMMAX 0
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-IPC-SHMMIN:CAPS"></a><h3>GLIBTOP_IPC_SHMMIN</h3>
+<pre class="programlisting">#define GLIBTOP_IPC_SHMMIN 1
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-IPC-SHMMNI:CAPS"></a><h3>GLIBTOP_IPC_SHMMNI</h3>
+<pre class="programlisting">#define GLIBTOP_IPC_SHMMNI 2
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-IPC-SHMSEG:CAPS"></a><h3>GLIBTOP_IPC_SHMSEG</h3>
+<pre class="programlisting">#define GLIBTOP_IPC_SHMSEG 3
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-IPC-SHMALL:CAPS"></a><h3>GLIBTOP_IPC_SHMALL</h3>
+<pre class="programlisting">#define GLIBTOP_IPC_SHMALL 4
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-MAX-SHM-LIMITS:CAPS"></a><h3>GLIBTOP_MAX_SHM_LIMITS</h3>
+<pre class="programlisting">#define GLIBTOP_MAX_SHM_LIMITS 5
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-shm-limits"></a><h3>struct glibtop_shm_limits</h3>
+<pre class="programlisting">struct glibtop_shm_limits {
+	guint64 flags;
+	guint64 shmmax;		/* GLIBTOP_IPC_SHMMAX */
+	guint64 shmmin;		/* GLIBTOP_IPC_SHMMIN */
+	guint64 shmmni;		/* GLIBTOP_IPC_SHMMNI */
+	guint64 shmseg;		/* GLIBTOP_IPC_SHMSEG */
+	guint64 shmall;		/* GLIBTOP_IPC_SHMALL */
+};
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-shm-limits"></a><h3>glibtop_get_shm_limits ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                glibtop_get_shm_limits              (<em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-shm-limits-r"></a><h3>glibtop_get_shm_limits_r</h3>
+<pre class="programlisting">#define glibtop_get_shm_limits_r glibtop_get_shm_limits_p
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-shm-limits-l"></a><h3>glibtop_get_shm_limits_l ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                glibtop_get_shm_limits_l            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-shm-limits-p"></a><h3>glibtop_get_shm_limits_p ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                glibtop_get_shm_limits_p            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *Param1</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-shm-limits-s"></a><h3>glibtop_get_shm_limits_s ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                glibtop_get_shm_limits_s            (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libgtop-Shared-Memory-Limits.html#glibtop-shm-limits" title="struct glibtop_shm_limits"><span class="type">glibtop_shm_limits</span></a> *buf</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18</div>
+</body>
+</html>

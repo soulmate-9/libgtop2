@@ -1,0 +1,138 @@
+<!-- ##### SECTION Title ##### -->
+fsusage
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_BLOCKS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_BFREE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_BAVAIL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_FILES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_FFREE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_BLOCK_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_READ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FSUSAGE_WRITE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_FSUSAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_fsusage ##### -->
+<para>
+
+</para>
+
+@flags: 
+@blocks: 
+@bfree: 
+@bavail: 
+@files: 
+@ffree: 
+@block_size: 
+@read: 
+@write: 
+
+<!-- ##### FUNCTION glibtop_get_fsusage ##### -->
+<para>
+
+</para>
+
+@buf: 
+@mount_dir: 
+
+
+<!-- ##### MACRO glibtop_get_fsusage_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_fsusage_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@mount_dir: 
+
+
+<!-- ##### FUNCTION glibtop_get_fsusage_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@mount_dir: 
+
+

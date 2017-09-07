@@ -1,0 +1,148 @@
+<!-- ##### SECTION Title ##### -->
+procsegment
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_TEXT_RSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_SHLIB_RSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_DATA_RSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_STACK_RSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_DIRTY_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_START_CODE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_END_CODE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_SEGMENT_START_STACK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_SEGMENT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_proc_segment ##### -->
+<para>
+
+</para>
+
+@flags: 
+@text_rss: 
+@shlib_rss: 
+@data_rss: 
+@stack_rss: 
+@dirty_size: 
+@start_code: 
+@end_code: 
+@start_stack: 
+
+<!-- ##### FUNCTION glibtop_get_proc_segment ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+
+
+<!-- ##### MACRO glibtop_get_proc_segment_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_segment_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_segment_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_segment_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+

@@ -1,0 +1,172 @@
+<!-- ##### SECTION Title ##### -->
+proctime
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_START_TIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_RTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_UTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_STIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_CUTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_CSTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_TIMEOUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_IT_REAL_VALUE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_FREQUENCY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_XCPU_UTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_TIME_XCPU_STIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_TIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_proc_time ##### -->
+<para>
+
+</para>
+
+@flags: 
+@start_time: 
+@rtime: 
+@utime: 
+@stime: 
+@cutime: 
+@cstime: 
+@timeout: 
+@it_real_value: 
+@frequency: 
+@xcpu_utime: 
+@xcpu_stime: 
+
+<!-- ##### FUNCTION glibtop_get_proc_time ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+
+
+<!-- ##### MACRO glibtop_get_proc_time_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_time_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_time_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_time_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+

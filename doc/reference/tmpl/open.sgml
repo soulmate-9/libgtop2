@@ -1,0 +1,158 @@
+<!-- ##### SECTION Title ##### -->
+open
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_INIT_NO_OPEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_INIT_NO_INIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FEATURES_NO_SERVER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FEATURES_EXCEPT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_METHOD_DIRECT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_METHOD_PIPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_METHOD_INET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_METHOD_UNIX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_ERROR_METHOD_IGNORE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_ERROR_METHOD_WARN_ONCE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_ERROR_METHOD_WARN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_ERROR_METHOD_ABORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_ERROR_METHOD_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_open_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@program_name: 
+@Param3: 
+@Param4: 
+
+
+<!-- ##### FUNCTION glibtop_init_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@Param2: 
+@Param3: 
+
+
+<!-- ##### FUNCTION glibtop_open_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@program_name: 
+@Param3: 
+@Param4: 
+
+
+<!-- ##### FUNCTION glibtop_open_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@program_name: 
+@Param3: 
+@Param4: 
+
+

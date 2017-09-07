@@ -1,0 +1,136 @@
+<!-- ##### SECTION Title ##### -->
+msg_limits
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGPOOL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGMAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGMNB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGMNI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGSSZ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_MSGTQL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_MSG_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_msg_limits ##### -->
+<para>
+
+</para>
+
+@flags: 
+@msgpool: 
+@msgmap: 
+@msgmax: 
+@msgmnb: 
+@msgmni: 
+@msgssz: 
+@msgtql: 
+
+<!-- ##### FUNCTION glibtop_get_msg_limits ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_msg_limits_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_msg_limits_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_msg_limits_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_msg_limits_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

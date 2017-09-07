@@ -1,0 +1,274 @@
+<!-- ##### SECTION Title ##### -->
+Command
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_CMND_QUIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_SYSDEPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_CPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_MEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_SWAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_UPTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_LOADAVG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_SHM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_MSG_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_SEM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROCLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_STATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_UID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_MEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_TIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_SIGNAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_KERNEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_SEGMENT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_ARGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_MAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_MOUNTLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_FSUSAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_NETLOAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PPP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_NETLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_CMND_PROC_OPEN_FILES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_CMND ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_command ##### -->
+<para>
+
+</para>
+
+@command: 
+@size: 
+@data_size: 
+@parameter: 
+
+<!-- ##### STRUCT glibtop_response ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### UNION glibtop_response_union ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO glibtop_call ##### -->
+<para>
+
+</para>
+
+@p1: 
+@p2: 
+@p3: 
+@p4: 
+
+
+<!-- ##### FUNCTION glibtop_call_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@command: 
+@send_size: 
+@send_buf: 
+@recv_size: 
+@recv_buf: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_call_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@command: 
+@send_size: 
+@send_buf: 
+@recv_size: 
+@recv_buf: 
+@Returns: 
+
+

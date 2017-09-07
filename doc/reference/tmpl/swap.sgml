@@ -1,0 +1,120 @@
+<!-- ##### SECTION Title ##### -->
+swap
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_SWAP_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SWAP_USED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SWAP_FREE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SWAP_PAGEIN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SWAP_PAGEOUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_SWAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_swap ##### -->
+<para>
+
+</para>
+
+@flags: 
+@total: 
+@used: 
+@free: 
+@pagein: 
+@pageout: 
+
+<!-- ##### FUNCTION glibtop_get_swap ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_swap_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_swap_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_swap_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_swap_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

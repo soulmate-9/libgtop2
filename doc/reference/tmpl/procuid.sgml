@@ -1,0 +1,235 @@
+<!-- ##### SECTION Title ##### -->
+procuid
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_UID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_EUID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_GID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_EGID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_SUID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_SGID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_FSUID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_FSGID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_PID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_PPID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_PGRP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_SESSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_TTY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_TPGID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_PRIORITY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_NICE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_NGROUPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_UID_GROUPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_UID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_proc_uid ##### -->
+<para>
+
+</para>
+
+@flags: 
+@uid: 
+@euid: 
+@gid: 
+@egid: 
+@suid: 
+@sgid: 
+@fsuid: 
+@fsgid: 
+@pid: 
+@ppid: 
+@pgrp: 
+@session: 
+@tty: 
+@tpgid: 
+@priority: 
+@nice: 
+@ngroups: 
+@groups: 
+
+<!-- ##### MACRO GLIBTOP_MAX_GROUPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_uid ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+
+
+<!-- ##### MACRO glibtop_get_proc_uid_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_uid_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_uid_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_uid_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+
+

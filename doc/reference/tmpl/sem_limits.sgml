@@ -1,0 +1,160 @@
+<!-- ##### SECTION Title ##### -->
+sem_limits
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMMAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMMNI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMMNS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMMNU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMMSL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMOPM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMUME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMUSZ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMVMX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SEMAEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_SEM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_sem_limits ##### -->
+<para>
+
+</para>
+
+@flags: 
+@semmap: 
+@semmni: 
+@semmns: 
+@semmnu: 
+@semmsl: 
+@semopm: 
+@semume: 
+@semusz: 
+@semvmx: 
+@semaem: 
+
+<!-- ##### FUNCTION glibtop_get_sem_limits ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_sem_limits_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_sem_limits_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_sem_limits_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_sem_limits_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

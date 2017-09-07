@@ -1,0 +1,112 @@
+<!-- ##### SECTION Title ##### -->
+loadavg
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_LOADAVG_LOADAVG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_LOADAVG_NR_RUNNING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_LOADAVG_NR_TASKS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_LOADAVG_LAST_PID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_LOADAVG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_loadavg ##### -->
+<para>
+
+</para>
+
+@flags: 
+@loadavg: 
+@nr_running: 
+@nr_tasks: 
+@last_pid: 
+
+<!-- ##### FUNCTION glibtop_get_loadavg ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_loadavg_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_loadavg_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_loadavg_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_loadavg_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

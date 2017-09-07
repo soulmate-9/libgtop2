@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>parameter</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
+<link rel="home" href="index.html" title="Libgtop Reference Manual">
+<link rel="up" href="libgtop-lib.html" title="Libgtop Library Reference">
+<link rel="prev" href="libgtop-open.html" title="open">
+<link rel="next" href="libgtop-procargs.html" title="procargs">
+<meta name="generator" content="GTK-Doc V1.18 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgtop-open.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libgtop-lib.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Libgtop Reference Manual</th>
+<td><a accesskey="n" href="libgtop-procargs.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgtop-parameter.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libgtop-parameter.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="libgtop-parameter"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgtop-parameter.top_of_page"></a>parameter</span></h2>
+<p>parameter</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgtop-parameter.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;glibtop/parameter.h&gt;
+
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-METHOD:CAPS" title="GLIBTOP_PARAM_METHOD">GLIBTOP_PARAM_METHOD</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-FEATURES:CAPS" title="GLIBTOP_PARAM_FEATURES">GLIBTOP_PARAM_FEATURES</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-COMMAND:CAPS" title="GLIBTOP_PARAM_COMMAND">GLIBTOP_PARAM_COMMAND</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-HOST:CAPS" title="GLIBTOP_PARAM_HOST">GLIBTOP_PARAM_HOST</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-PORT:CAPS" title="GLIBTOP_PARAM_PORT">GLIBTOP_PARAM_PORT</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-ERROR-METHOD:CAPS" title="GLIBTOP_PARAM_ERROR_METHOD">GLIBTOP_PARAM_ERROR_METHOD</a>
+#define             <a class="link" href="libgtop-parameter.html#GLIBTOP-PARAM-REQUIRED:CAPS" title="GLIBTOP_PARAM_REQUIRED">GLIBTOP_PARAM_REQUIRED</a>
+#define             <a class="link" href="libgtop-parameter.html#glibtop-get-parameter" title="glibtop_get_parameter()">glibtop_get_parameter</a>               (p1,
+                                                         p2,
+                                                         p3)
+#define             <a class="link" href="libgtop-parameter.html#glibtop-set-parameter" title="glibtop_set_parameter()">glibtop_set_parameter</a>               (p1,
+                                                         p2,
+                                                         p3)
+<span class="returnvalue">size_t</span>              <a class="link" href="libgtop-parameter.html#glibtop-get-parameter-l" title="glibtop_get_parameter_l ()">glibtop_get_parameter_l</a>             (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code>const unsigned <span class="type">parameter</span> Param2</code></em>,
+                                                         <em class="parameter"><code><span class="type">void</span> *data_ptr</code></em>,
+                                                         <em class="parameter"><code><span class="type">size_t</span> data_size</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="libgtop-parameter.html#glibtop-set-parameter-l" title="glibtop_set_parameter_l ()">glibtop_set_parameter_l</a>             (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code>const unsigned <span class="type">parameter</span> Param2</code></em>,
+                                                         <em class="parameter"><code>const <span class="type">void</span> *data_ptr</code></em>,
+                                                         <em class="parameter"><code><span class="type">size_t</span> data_size</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="libgtop-parameter.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libgtop-parameter.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-METHOD:CAPS"></a><h3>GLIBTOP_PARAM_METHOD</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_METHOD		1
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-FEATURES:CAPS"></a><h3>GLIBTOP_PARAM_FEATURES</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_FEATURES		2
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-COMMAND:CAPS"></a><h3>GLIBTOP_PARAM_COMMAND</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_COMMAND		3
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-HOST:CAPS"></a><h3>GLIBTOP_PARAM_HOST</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_HOST		4
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-PORT:CAPS"></a><h3>GLIBTOP_PARAM_PORT</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_PORT		5
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-ERROR-METHOD:CAPS"></a><h3>GLIBTOP_PARAM_ERROR_METHOD</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_ERROR_METHOD 6
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GLIBTOP-PARAM-REQUIRED:CAPS"></a><h3>GLIBTOP_PARAM_REQUIRED</h3>
+<pre class="programlisting">#define GLIBTOP_PARAM_REQUIRED		7
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-parameter"></a><h3>glibtop_get_parameter()</h3>
+<pre class="programlisting">#define glibtop_get_parameter(p1,p2,p3) glibtop_get_parameter_l(glibtop_global_server,p1,p2,p3)
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-set-parameter"></a><h3>glibtop_set_parameter()</h3>
+<pre class="programlisting">#define glibtop_set_parameter(p1,p2,p3) glibtop_set_parameter_l(glibtop_global_server,p1,p2,p3)
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-get-parameter-l"></a><h3>glibtop_get_parameter_l ()</h3>
+<pre class="programlisting"><span class="returnvalue">size_t</span>              glibtop_get_parameter_l             (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code>const unsigned <span class="type">parameter</span> Param2</code></em>,
+                                                         <em class="parameter"><code><span class="type">void</span> *data_ptr</code></em>,
+                                                         <em class="parameter"><code><span class="type">size_t</span> data_size</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="glibtop-set-parameter-l"></a><h3>glibtop_set_parameter_l ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                glibtop_set_parameter_l             (<em class="parameter"><code><a class="link" href="libgtop-GlibTop.html#glibtop" title="struct glibtop"><span class="type">glibtop</span></a> *server</code></em>,
+                                                         <em class="parameter"><code>const unsigned <span class="type">parameter</span> Param2</code></em>,
+                                                         <em class="parameter"><code>const <span class="type">void</span> *data_ptr</code></em>,
+                                                         <em class="parameter"><code><span class="type">size_t</span> data_size</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18</div>
+</body>
+</html>

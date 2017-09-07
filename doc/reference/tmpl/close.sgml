@@ -1,0 +1,56 @@
+<!-- ##### SECTION Title ##### -->
+Close
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION glibtop_close ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION glibtop_close_r ##### -->
+<para>
+
+</para>
+
+@server: 
+
+
+<!-- ##### FUNCTION glibtop_close_s ##### -->
+<para>
+
+</para>
+
+@server: 
+
+
+<!-- ##### FUNCTION glibtop_close_p ##### -->
+<para>
+
+</para>
+
+@server: 
+
+

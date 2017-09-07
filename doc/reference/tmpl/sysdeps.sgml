@@ -1,0 +1,264 @@
+<!-- ##### SECTION Title ##### -->
+sysdeps
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_FEATURES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_CPU ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_MEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_SWAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_UPTIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_LOADAVG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_SHM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_MSG_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_SEM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROCLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_STATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_UID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_MEM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_TIME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_SIGNAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_KERNEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_SEGMENT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_ARGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_MAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_MOUNTLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_FSUSAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_NETLOAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PPP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_NETLIST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_PROC_OPEN_FILES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_SYSDEPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_SYSDEPS_ALL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_sysdeps ##### -->
+<para>
+
+</para>
+
+@flags: 
+@features: 
+@cpu: 
+@mem: 
+@swap: 
+@uptime: 
+@loadavg: 
+@shm_limits: 
+@msg_limits: 
+@sem_limits: 
+@proclist: 
+@proc_state: 
+@proc_uid: 
+@proc_mem: 
+@proc_time: 
+@proc_signal: 
+@proc_kernel: 
+@proc_segment: 
+@proc_args: 
+@proc_map: 
+@proc_open_files: 
+@mountlist: 
+@fsusage: 
+@netlist: 
+@netload: 
+@ppp: 
+@proc_wd: 
+@proc_affinity: 
+
+<!-- ##### FUNCTION glibtop_get_sysdeps ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_sysdeps_r ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

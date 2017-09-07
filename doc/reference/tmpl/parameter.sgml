@@ -1,0 +1,116 @@
+<!-- ##### SECTION Title ##### -->
+parameter
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_METHOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_FEATURES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_COMMAND ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_HOST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_PORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_ERROR_METHOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PARAM_REQUIRED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO glibtop_get_parameter ##### -->
+<para>
+
+</para>
+
+@p1: 
+@p2: 
+@p3: 
+
+
+<!-- ##### MACRO glibtop_set_parameter ##### -->
+<para>
+
+</para>
+
+@p1: 
+@p2: 
+@p3: 
+
+
+<!-- ##### FUNCTION glibtop_get_parameter_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@Param2: 
+@data_ptr: 
+@data_size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_set_parameter_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@Param2: 
+@data_ptr: 
+@data_size: 
+
+

@@ -1,0 +1,120 @@
+<!-- ##### SECTION Title ##### -->
+Shared Memory Limits
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SHMMAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SHMMIN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SHMMNI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SHMSEG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_IPC_SHMALL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_SHM_LIMITS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_shm_limits ##### -->
+<para>
+
+</para>
+
+@flags: 
+@shmmax: 
+@shmmin: 
+@shmmni: 
+@shmseg: 
+@shmall: 
+
+<!-- ##### FUNCTION glibtop_get_shm_limits ##### -->
+<para>
+
+</para>
+
+@buf: 
+
+
+<!-- ##### MACRO glibtop_get_shm_limits_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_shm_limits_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_shm_limits_p ##### -->
+<para>
+
+</para>
+
+@Param1: 
+@buf: 
+
+
+<!-- ##### FUNCTION glibtop_get_shm_limits_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+
+

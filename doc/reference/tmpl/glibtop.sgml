@@ -1,0 +1,107 @@
+<!-- ##### SECTION Title ##### -->
+GlibTop
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_MOUNTENTRY_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO LIBGTOP_CHECK_VERSION ##### -->
+<para>
+
+</para>
+
+@major: 
+@minor: 
+@micro: 
+
+
+<!-- ##### STRUCT glibtop ##### -->
+<para>
+
+</para>
+
+@machine: 
+@input: 
+@output: 
+@socket: 
+@ncpu: 
+@real_ncpu: 
+@os_version_code: 
+@name: 
+@server_command: 
+@server_host: 
+@server_user: 
+@server_rsh: 
+@features: 
+@server_port: 
+@sysdeps: 
+@required: 
+@pid: 
+
+<!-- ##### VARIABLE glibtop_global_server ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION glibtop_init ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_init_r ##### -->
+<para>
+
+</para>
+
+@server_ptr: 
+@features: 
+@flags: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_init_s ##### -->
+<para>
+
+</para>
+
+@server_ptr: 
+@features: 
+@flags: 
+@Returns: 
+
+
+<!-- ##### VARIABLE glibtop_server_features ##### -->
+<para>
+
+</para>
+
+

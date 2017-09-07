@@ -1,0 +1,176 @@
+<!-- ##### SECTION Title ##### -->
+procopenfiles
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO GLIBTOP_PROC_OPEN_FILES_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_OPEN_FILES_TOTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_PROC_OPEN_FILES_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_PROC_OPEN_FILES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FILE_ENTRY_FD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FILE_ENTRY_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FILE_ENTRY_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FILE_ENTRY_INETSOCKET_DST_HOST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_FILE_ENTRY_INETSOCKET_DST_PORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_MAX_OPEN_FILE_ENTRY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_OPEN_FILENAME_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GLIBTOP_OPEN_DEST_HOST_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT glibtop_open_files_entry ##### -->
+<para>
+
+</para>
+
+@fd: 
+@type: 
+
+<!-- ##### STRUCT glibtop_proc_open_files ##### -->
+<para>
+
+</para>
+
+@flags: 
+@number: 
+@total: 
+@size: 
+
+<!-- ##### FUNCTION glibtop_get_proc_open_files ##### -->
+<para>
+
+</para>
+
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### MACRO glibtop_get_proc_open_files_r ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION glibtop_get_proc_open_files_l ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_open_files_p ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION glibtop_get_proc_open_files_s ##### -->
+<para>
+
+</para>
+
+@server: 
+@buf: 
+@pid: 
+@Returns: 
+
+
